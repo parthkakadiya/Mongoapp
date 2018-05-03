@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser'); // take your JSON and converted into object
 
+
 const {mongoose} = require('./db/mongoose');
 const {Todo} = require('./models/todo');
 const {user} = require('./models/user');
@@ -24,3 +25,5 @@ app.post('/todos', (req, res) => {
 app.listen(3000, () => {
     console.log('Started on port 3000')
 });
+
+module.exports = {app};
