@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311cc215-1df9-48ab-96f5-01214e6c389f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/server/test/seed/seed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/hashing.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/hashing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/test/server.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/server.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,20 +27,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+            <state relative-caret-position="290">
+              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/user.js">
+      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/test/server.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="71" selection-start-line="71" selection-end-line="84" selection-end-column="3" />
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/test/seed/seed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/seed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/server.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -66,7 +100,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/playground/mongoose-remove.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/mongoose.js" />
-        <option value="$PROJECT_DIR$/server/test/server.test.js" />
         <option value="$PROJECT_DIR$/server/db/mongoose.js" />
         <option value="$PROJECT_DIR$/server/middleware/authenticate.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
@@ -74,6 +107,8 @@
         <option value="$PROJECT_DIR$/playground/hashing.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/user.js" />
         <option value="$PROJECT_DIR$/server/models/user.js" />
+        <option value="$PROJECT_DIR$/server/test/seed/seed.js" />
+        <option value="$PROJECT_DIR$/server/test/server.test.js" />
       </list>
     </option>
   </component>
@@ -88,7 +123,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="42" />
     <option name="y" value="9" />
     <option name="width" value="1316" />
@@ -125,6 +160,19 @@
               <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="seed" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,12 +225,12 @@
       <updated>1525265713571</updated>
       <workItem from="1525265715441" duration="38317000" />
       <workItem from="1525776544258" duration="18090000" />
-      <workItem from="1525957706836" duration="12976000" />
+      <workItem from="1525957706836" duration="15527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69383000" />
+    <option name="totallyTimeSpent" value="71934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -360,31 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/server.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/models/todo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/test/server.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -430,6 +457,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -437,17 +478,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/user.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/seed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="71" selection-start-line="71" selection-end-line="84" selection-end-column="3" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/server.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/server.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/test/seed/seed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
